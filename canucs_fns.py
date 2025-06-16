@@ -116,10 +116,10 @@ class CANUCSGalaxy:
     def plot_sed_fits(self):
     
         labels = ['log M$_*$','log SFR$_{inst}$','$A_V$','log Z/Z$_\odot$']
-        from matplotlib import rc
-        rc('text',usetex=True)
-        rc('text.latex', preamble=r'\usepackage{color}')
-        import matplotlib.pyplot as plt
+        # from matplotlib import rc
+        # rc('text',usetex=True)
+        # rc('text.latex', preamble=r'\usepackage{color}')
+        # import matplotlib.pyplot as plt
 
         if self.ds['bp_fits_exist'][0] == True:
 
